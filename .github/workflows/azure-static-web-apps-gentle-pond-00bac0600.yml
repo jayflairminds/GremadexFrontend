@@ -10,38 +10,25 @@ on:
 
 jobs:
   build_and_deploy_job:
-    if: ${{ github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed') }}
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
-    permissions:
-      id-token: write
-      contents: read
     steps:
-      # Checkout code
       - uses: actions/checkout@v3
-        with:
-          submodules: true
-          lfs: false
 
-      # Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Adjust the version based on your app requirements
+          node-version: '16' # Use the correct version for your app
 
-      # Install dependencies
       - name: Install Dependencies
         run: npm install
 
-      # Build the application
-      - name: Build Application
+      - name: Build the Application
         run: npm run build
 
-      # Deploy to Azure Static Web Apps
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_POND_00BAC0600 }}
-          app_location: "/" # Adjust based on your project structure
-          api_location: "" # Optional
-          output_location: "build" # Adjust if necessary
+          action: "upload"
+          app_location: "/" # Path to your app source
+          output_location: "build" # Path to the built static files
