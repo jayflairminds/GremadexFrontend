@@ -1,0 +1,210 @@
+.main{
+    /* height: 90vh; */
+    /* margin-bottom: 10rem; */
+  }
+  
+  .tableContainer {
+    display: flex;
+    flex-direction: column;
+    max-height: 75vh;
+    overflow-y: auto;
+    border: 1px solid #DCDEDE;
+    border-radius: 8px;
+    /* width: 135vh; */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .stickyHeader {
+    position: sticky; 
+    top: 0; 
+    /* z-index: 1;  */
+    background-color:#177e89
+  }
+  
+  .th {
+    padding: 15px;
+    padding-left: 15px;
+    text-align: left;
+    color: white;
+    min-width: 20vh !important;
+    border-bottom: 1px solid #DCDEDE;
+    /* font-weight: 600; */
+    /* font-size: 14px; */
+    background-color: #177e89;
+  }
+  
+  .td {
+    padding: 8px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom: 1px solid #DCDEDE;
+    background-color: white;
+    /* font-weight: 400; */
+    /* font-size: 14px; */
+  }
+  
+  .totalRow {
+    padding: 8px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom: 1px solid #DCDEDE;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #EEF6FC;
+  }
+  
+  .headRow .th:first-child {
+    border-top-left-radius: 9px;
+  }
+  
+  .headRow .th:last-child {
+    border-top-right-radius: 9px;
+  }
+  
+  .lastRow .totalRow:first-child {
+    border-bottom-left-radius: 8px;
+  }
+  
+  .lastRow .totalRow:last-child {
+    border-bottom-right-radius: 8px;
+  }
+  
+  .statusButton {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .pendingButton {
+    background-color: rgb(245, 245, 88);
+    color: black; /* Ensure text is readable on yellow */
+  }
+  
+  .approvedButton {
+    background-color:rgb(103, 218, 103);
+    color: black;
+  }
+  
+  
+  .modalContent{
+    padding: 1rem;
+  }
+  
+  .detailsSection{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heading{
+    padding: 1rem;
+  }
+  
+  .selectSection{
+    display: flex;
+  }
+  
+  .requestLabel{
+    padding-left: 1rem;
+  }
+  
+  /* DrawSummary.module.css */
+  
+  .notStartedButton {
+    background-color: red;
+    color: black;
+    border: none;
+  }
+  
+  .pendingInspectionButton {
+    background-color: orange;
+    border: none;
+  }
+  
+  .pendingRequestButton {
+    background-color: orange;
+    border: none;
+  }
+  
+  .completedButton {
+    background-color: rgb(103, 218, 103);
+    border: none;
+  }
+  
+  .pendingButton {
+    /* Add styles for pending button if different from the above statuses */
+  }
+  
+  .approvedButton {
+    /* Add styles for approved button if different from the above statuses */
+  }
+  
+  .btn{
+    background-color: #177e89;
+    border: none !important;
+    color: white !important;
+  }
+  
+  
+  .inReview{
+    margin-top: 0.5rem;
+    background-color: #177e89;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .createDraw{
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  
+  
+  .pending{
+    padding: 8px 8px;
+    /* border-radius: 8px;   */
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
+    border: none;
+  } 
+  
+  .notUploaded{
+    padding: 8px 8px;
+    /* border-radius: 8px; */
+    background-color: #FF6347;
+    color: #c42205;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .approve{
+    padding: 8px 8px;
+    /* border-radius: 8px; */
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+    border: none;
+  }
+  .inlineEdit{
+    display: flex;
+  }
+  

@@ -1,0 +1,45 @@
+/* Container for the modal content */
+.modalContent {
+    padding: 20px;
+    background-color: #084c61;
+}
+
+/* Row container for each information field */
+.infoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Label styling for field descriptions */
+.label {
+    font-weight: bold;
+    color: white;
+    flex: 1;
+}
+
+/* Value styling for field data */
+.value {
+    flex: 2;
+    text-align: right;
+    color: white;
+}
+
+/* Custom styling for the Select dropdown */
+.statusSelect {
+    width: 100%;
+}
+
+/* TextArea styling for the comment section */
+.commentInput {
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* #177e89 */
+.submitBtn{
+    background-color: #177e89 !important;
+    color: white !important;
+}

@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.label{
+    color: black !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    margin-bottom: 0;
+    padding-right: 0.5rem;
+
+}
+
+.dateDiv{
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.inputTag{
+    width: 20%;
+    color: black !important;
+}
+
+.checkboxDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.filledBtnAdd {
+    padding: 0.3rem;
+    background-color: #177e89 !important;
+    color: white !important;
+    border-radius: 6px;
+    border: 1px solid #177e89 !important;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.deleteButton{
+    background-color: red !important;
+    border: none;
+    color: white !important;
+    cursor: pointer;
+  }
+  .deleteButton :hover{
+    background-color: red !important;   
+    border: none;
+    color: white !important;
+    cursor: pointer;
+  }

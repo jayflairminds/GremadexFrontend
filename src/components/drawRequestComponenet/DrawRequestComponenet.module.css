@@ -1,0 +1,45 @@
+/* LoanDetails.module.css */
+.main{
+    overflow: auto;
+    margin-top: 0.5rem;
+    height: 100%;
+  }
+  .tabs {
+      display: flex;
+      padding-left: 0.5rem;
+      padding-top: 0.5rem;
+      /* padding-bottom: 16px; */
+    }
+    
+    .tabButtonOne {
+      border: none;
+      cursor: pointer;
+      padding: 10px 20px;
+      background-color: #177e89;
+      outline: none;
+      padding: 1rem;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+    .tabButtonTow {
+      border: none;
+      cursor: pointer;
+      padding: 10px 20px;
+      background-color: #177e89;
+      outline: none;
+      padding: 1rem;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+    
+    
+    .activeTab {
+      /* background-color: red; */
+      border-bottom: 2px solid white;
+    }
+    
+    .inactiveTab {
+       background-color: #177e89;
+      border-bottom: none;
+    }
+    

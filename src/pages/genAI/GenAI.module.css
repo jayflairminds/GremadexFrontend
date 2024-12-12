@@ -1,0 +1,289 @@
+.main {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    background-color: #084c61;
+    padding: 0 0.5rem 0 0.5rem;
+    /* padding: 0 0rem 2rem 0rem; */
+  }
+  
+  .sideBar {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  .arraowDiv{
+    margin-left: 0.5rem;
+  }
+  .Gpt {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .responseDiv {
+    height: 78.7vh;
+    overflow-y: auto;
+    width: 100%;
+  }
+  
+  .messageDiv {
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    padding: 0;
+    border: 2px solid #177e89;
+    border-radius: 8px;
+    padding: 0 1rem 0 1rem;
+  }
+  
+  .inputDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 1rem;
+    align-items: center;
+    
+  }
+  
+  .timepass {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0.5rem;
+    max-width: 60%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .welcomeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcomeMessage {
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+    /* background-color: red; */
+    /* justify-content: center; */
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    padding: 0rem 1rem;
+    
+    overflow: hidden;
+  }
+  
+  .EntryPrompt {
+    display: flex;
+    width: 100%;
+    justify-content: end !important;
+    padding: 1rem;
+    
+  }
+  
+  .promtMessage {
+    padding: 1rem;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Apple Color Emoji, Arial, Segoe UI Emoji, Segoe UI Symbol;
+    background-color: #177e89;
+    transition: all 0.3s ease-in-out;
+    color: white;
+  }
+  .messageFile{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .messageTopDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.3rem;
+    gap: 10px;
+  }
+  .message {
+    padding-top: 0.8rem;
+    /* font-family: 'Google Sans', 'Helvetica Neue', sans-serif; */
+    font-weight: 500;
+    line-height: 4rem;
+    letter-spacing: -0.03em;
+    /* background: linear-gradient(135deg, #a6e1f0, #53a5b9, #084c61); Lighter to darker transition */
+    margin-bottom: 0;
+    /* background: linear-gradient(135deg, #b3c7ff, #697df7, #051caf); */
+    color: white ;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+  }
+  .dragMessage{
+    padding-top: 0.5rem;
+    color: white ;
+  }
+  
+  .img {
+    height: 2.5%;
+    width: 2.5%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 0.8rem;
+    
+    filter: brightness(0) invert(1);
+  }
+  
+  .img:hover {
+    transform: scale(1.2);
+  }
+  
+  .btnDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    width: 250px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .attachInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .summaryMeesage {
+    font-size: 1.2em; 
+    padding: 2rem; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    white-space: pre-wrap;
+    font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Apple Color Emoji, Arial, Segoe UI Emoji, Segoe UI Symbol;
+    background-color:#177e89;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button {
+    border: none;
+    background-color: #3a4850;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #697df7;
+  }
+  
+  .browseBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px dotted black;
+    height: 15vh;
+    width: 170px;
+    border-radius: 8px;
+    color: rgb(27, 24, 24);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .browseBox:hover {
+    background-color: #f0f4ff;
+  }
+  
+  .browseMessage {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .fileNameMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  .filledBtn
+  {
+    color: white !important;
+    border:  2px solid  #177e89!important;
+    background-color: #177e89!important;
+    border-radius: 6px !important;
+    /* padding: 8px 25px 8px 25px; */
+    /* margin:0.2rem 3rem; */
+  }
+
+  .arrowBtn{
+    background-color: transparent !important;
+    border: none !important;
+  }
+  .arrowBtn:hover{
+    background-color: transparent !important;
+    border: none !important;
+  }
+
+  .loaderDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .messageResponseDiv{
+    background-color: #177e89;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 8px;
+  }
+
+  .pdfButtonDiv{
+    display: flex;
+    justify-content: end;
+    gap: 7px;
+    padding-top: 0.3rem;
+  }
+
+  .btnDivs{
+    display: flex;
+    gap: 20px;
+  }
+
+  .imgCopy {
+    height: 2%;
+    width: 2%;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+  }
+
+  .btnExport{
+    color: white !important;
+    border:  2px solid  #084c61!important;
+    background-color: #084c61!important;
+    border-radius: 6px !important;
+
+  }

@@ -1,0 +1,42 @@
+.addBtn{
+    background-color: #177e89 !important;
+    color: white !important;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .cancelBtn:hover{
+    color: black !important;
+  }
+
+  .inputDiv{
+    display: flex;
+  }
+
+  .inputDiv {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5rem;
+}
+
+.inputDiv span {
+    font-weight: bold;
+    padding-bottom: 0.2rem;
+    color: #084c61;
+}
+
+.inputDiv input {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.inputDiv input:focus {
+    border-color: #177e89;
+    outline: none;
+    box-shadow: 0 0 5px rgba(23, 126, 137, 0.5);
+}

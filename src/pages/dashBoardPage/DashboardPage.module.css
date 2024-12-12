@@ -1,0 +1,208 @@
+.main{
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #084c61; */
+    
+}
+
+.cardsBtnDivMain{width: 100%;}
+
+.filterDiv{
+    display: flex;
+    width: 100%;
+    /* background-color: #e76f51; */
+    justify-content: center;
+    align-items: center;
+}
+
+.selectTag{
+    width: 90%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.cardsBtnDivMain{
+    display: flex;
+}
+.cardsDiv{
+    width: 75%;
+    
+    /* flex-direction: column; */
+    /* justify-content: start; */
+    padding: 1rem;
+   
+    /* align-items: center; */
+    /* background-color: blue; */
+}
+
+.innerDiv{
+    width: 100%;
+    display: grid;
+    overflow: auto;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    border: 1px solid black;
+    padding: 1rem;
+    min-width: 35%;
+    overflow-y: auto;
+    /* width: 65%; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    color: white;
+    /* width: 23.3%; */
+    background-color: #2a9d8f;
+    border: none;
+    /* margin-bottom: 20px; */
+    border-radius: 8px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.parentCardDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.cardsInnerDiv{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding-bottom: 0.5rem; */
+}
+.headingP{
+    display: flex;
+    color: white;
+    padding-left: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 100%; */
+}
+
+.pTag{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0.4rem;
+    color: white;
+}
+
+.pTagOne{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10px;
+    color: white;
+}
+
+.DocUploadDiv{
+    width: 25%;
+    padding: 1rem 0.8rem 0.8rem 0;
+    /* background-color: aquamarine; */
+}
+
+.cardDoc{
+    border: 1px solid black;
+    padding: 1rem;
+    /* width: 120%; */
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    color: white;
+    background-color: #264653;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.btn {
+    background-color: #e76f51;
+    color: white !important;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f4a261;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.pending{
+    padding: 8px 8px;
+    border-radius: 8px;
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
+    border: none;
+  } 
+
+  .notUploaded{
+    padding: 8px 8px;
+    border-radius: 8px;
+    background-color: #FF6347;
+    color: #c42205;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+
+  .approve{
+    padding: 8px 8px;
+    border-radius: 8px;
+    background-color: #11de41;
+    color: #155724;
+    font-weight: bold;
+    border: none;
+  }
+
+  .toggleDiv{
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+  .custom-switch.ant-switch-checked {
+    background-color: red !important; /* Changes the checked color to red */
+  }
+
+  .noMessage{
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+  }
+  .loaderDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .noProjectDiv{
+    display: flex;
+    justify-content: center;
+  }

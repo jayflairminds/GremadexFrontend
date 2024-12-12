@@ -1,0 +1,107 @@
+
+.main{
+  height: 100%;
+  overflow: auto;
+  background-color: #084c61;
+  padding-bottom: 0rem;
+}
+
+.tableDiv{
+    padding-top: 0.5rem;
+}
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+    max-height: 60vh;
+    overflow-y: auto;
+    border: 1px solid #DCDEDE;
+    border-radius: 8px;
+    /* width: 210vh; */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .stickyHeader {
+    position: sticky; 
+    top: 0; 
+    /* z-index: 1;  */
+    background-color:#177e89
+  }
+  
+  .th {
+    padding: 15px;
+    padding-left: 15px;
+    text-align: left;
+    color: white;
+    min-width: 12vh;
+    border-bottom: 1px solid #DCDEDE;
+    /* font-weight: 600; */
+    /* font-size: 14px; */
+    background-color: #177e89;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .td {
+    padding: 8px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom: 1px solid #DCDEDE;
+    background-color: white;
+    /* font-weight: 400; */
+    /* font-size: 14px; */ position: relative; /* Avoid using sticky here */
+  z-index: 1; /* Lower than .th to prevent overlap */
+  }
+  
+  .totalRow {
+    padding: 8px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom: 1px solid #DCDEDE;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #EEF6FC;
+  }
+  
+  .headRow .th:first-child {
+    border-top-left-radius: 9px;
+  }
+  
+  .headRow .th:last-child {
+    border-top-right-radius: 9px;
+  }
+  
+  .lastRow .totalRow:first-child {
+    border-bottom-left-radius: 8px;
+  }
+  
+  .lastRow .totalRow:last-child {
+    border-bottom-right-radius: 8px;
+  }
+
+  .headingTitle{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #177e89;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  }
+
+  .selectDiv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .filledBtn{
+    background-color: #177e89 !important;
+    border: none !important;
+    color: white !important;
+  }

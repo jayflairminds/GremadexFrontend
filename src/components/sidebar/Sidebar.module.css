@@ -1,0 +1,61 @@
+/* SideBar.module.css */
+
+.main {
+  background-color: #084c61;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 100%;
+  padding: 0.3rem;
+}
+
+.beforeExpand {
+  width: 30px;
+}
+
+.afterExpand {
+  width: 215px;
+}
+
+.divArrow {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  padding: 0.8rem;
+}
+
+.divs {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  padding: 0.8rem;
+}
+
+.divs:hover {
+  background-color: #177e89;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  /* padding: 0.8rem; */
+  /* padding-right: 1.3rem; */
+}
+
+
+.img {
+  height: 12%;
+  width: 12%;
+  filter: brightness(0) invert(1);
+}
+
+.imgRightArrow {
+  height: 20px;
+  width: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.info {
+  margin-left: 10px;
+  color: white;
+  font-size: 14px;
+}

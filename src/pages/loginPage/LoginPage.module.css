@@ -1,0 +1,100 @@
+.main {
+    display: flex;
+    height: 100vh;
+    /* font-family:sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+.logoDiv {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    width: 55%; 
+    justify-content: center;
+    padding-left: 3rem;
+    align-items: center;
+    background-color: #084c61;
+}
+
+.loginDiv {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.formDivMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.heading {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    /* margin-bottom: 15px; */
+}
+
+label {
+    /* margin-bottom: 5px; */
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btnDiv{
+    display: flex;
+    /* background-color: #084c61; */
+    justify-content: center;
+    width: 100%;
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: red;
+}
+
+.filledBtn{
+    background-color: #084c61 !important;
+    color: white !important;
+    border: none !important;
+}
+.filledBtn:hover{
+    background-color: #084c61 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.modalDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.heading{
+    padding-top: 0.5rem;
+    color: black;
+}

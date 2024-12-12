@@ -1,0 +1,87 @@
+
+  .main{
+    padding-top: 1rem;
+  }
+  .tableContainer {
+    display: flex;
+    flex-direction: column;
+    max-height: 50vh;
+    overflow-y: auto;
+    border: 1px solid #DCDEDE;
+    border-radius: 8px;
+    /* width: 210vh; */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .stickyHeader {
+    position: sticky; 
+    top: 0; 
+    /* z-index: 1;  */
+    background-color:#177e89;
+  }
+  
+  .th {
+    padding: 20px;
+    padding-left: 15px;
+    text-align: left;
+    color: white;
+    min-width: 12vh;
+    border-bottom: 1px solid #DCDEDE;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .td {
+    padding: 23px;
+    padding-left: 15px;
+    text-align: left;
+    background-color: white;
+    border-bottom: 1px solid #DCDEDE;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .tr:hover .td {
+    background-color: #177e89 !important;
+    color: white; /* Optional: To change text color on hover */
+  }
+  
+  .totalRow {
+    padding: 8px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom: 1px solid #DCDEDE;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #EEF6FC;
+  }
+  
+  
+  .headRow .th:first-child {
+    border-top-left-radius: 9px;
+  }
+  
+  .headRow .th:last-child {
+    border-top-right-radius: 9px;
+  }
+  
+  .lastRow .totalRow:first-child {
+    border-bottom-left-radius: 8px;
+  }
+  
+  .lastRow .totalRow:last-child {
+    border-bottom-right-radius: 8px;
+  }
+
+  .deleteButton{
+    background-color: red;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }

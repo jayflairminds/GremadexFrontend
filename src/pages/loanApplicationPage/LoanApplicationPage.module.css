@@ -1,0 +1,116 @@
+.formContainer {
+    background-color: #084c61;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: auto;
+  }
+  
+  .formDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #177e89;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    color: white;
+  }
+
+  .dateDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 13rem 0 13rem;
+  }
+
+  
+  .AmountRateDIv, .selectDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .AmountRateDIv div, .dateDiv div, .selectDiv div {
+    flex: 1;
+  }
+  
+  .AmountRateDIv input, .dateDiv .ant-picker, .selectDiv .ant-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .AmountRateDIv input:focus, .dateDiv .ant-picker-focused, .selectDiv .ant-select-focused {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  }
+  
+  .inspectorDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btnDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    width: 40%;
+    padding: 10px;
+    background-color: #084c61;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #084c61 !important;
+    color: white !important;
+    transform: scale(1.05);
+  }
+  
+  input, label, .ant-select-selection-item, .ant-picker-input {
+    color: white;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  input[type="text"], input[type="number"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  input[type="text"]:focus, input[type="number"]:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .ant-select-selection-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .ant-picker {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .ant-picker input {
+    background-color: transparent;
+    color: white;
+  }
+  

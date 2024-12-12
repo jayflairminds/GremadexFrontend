@@ -1,0 +1,115 @@
+.main{
+    width: 100%;
+    /* background-color: rgb(39, 51, 70); */
+    background-color: #084c61;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0.8rem 0.1rem 0.5rem;
+    align-items: center;
+}
+
+.buttonNavImg{
+    height: 5%;
+    width: 5%;
+}
+
+.buttonNav{
+    display: flex;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.logoutBtn{
+    border: none;
+    background-color:rgb(39, 51, 70) ;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.nameTag{
+    font-weight: 700;
+    padding-right: 0.2rem;
+}
+
+.img{
+    filter: brightness(0) invert(1);
+}
+
+ 
+
+.pending {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notUploaded {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: #ff6347;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .approve {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: #11de41;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #177e89;
+    color: white;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .heading {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    width: 160px;
+    text-align: left;
+  }
+  
+  .headingText {
+    font-size: 16px;
+    color: white;
+    margin-left: 1rem;
+  }
+
+  
+.filledBtn{
+    background-color: #084c61 !important;
+    color: white !important;
+    border: none !important;
+  }
+  .filledBtn:hover{
+    background-color: #084c61 !important;
+    color: white !important;
+    border: none !important;
+  }
+  .loaderDiv{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }

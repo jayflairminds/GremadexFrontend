@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .divs {
+    display: flex;
+    height: 100%;
+  }
+  
+  .sideBar {
+    display: flex;
+    flex-direction: column;
+    /* width: 30px; */
+    /* transition: width 0.3s ease; */
+  }
+  
+  
+  

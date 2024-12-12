@@ -1,0 +1,103 @@
+/* PlanSelectionPage.module.css */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #084c61;
+  /* padding: 0 1rem 1rem 1rem; */
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.plansContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.planCard {
+  background-color: #2a9d8f;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.planCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.planCard h2 {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: rgb(70, 174, 234);
+}
+
+.planCard p {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  margin: 10px 0;
+}
+
+.selectBtn {
+  background-color: #177e89;
+  color: white !important;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  /* margin-top: 20px; */
+  transition: background-color 0.3s ease;
+}
+
+.selectBtn:hover {
+  background-color: #177e89 !important;
+  color: white !important;
+}
+
+.basic{
+    color: blue !important;
+}
+.standard{
+    color: black !important;
+}
+.premium{
+    color: red !important;
+}
+.free{
+  color: rgb(37, 217, 37) !important;
+}
+
+.desTag{
+  /* color: #177e89 !important; */
+  color: white !important;
+}
+
+
+.inputDiv{
+  display: flex;
+  gap: 10px;
+}

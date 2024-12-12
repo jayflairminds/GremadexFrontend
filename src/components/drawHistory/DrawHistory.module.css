@@ -1,0 +1,214 @@
+.main{
+    height: 100%;
+}
+
+.tableDiv{
+    padding-top: 0.5rem;
+}
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+    max-height: 70vh;
+    overflow-y: auto;
+    border: 1px solid #DCDEDE;
+    border-radius: 8px;
+    /* width: 210vh; */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .stickyHeader {
+    position: sticky; 
+    top: 0; 
+    /* z-index: 1;  */
+    background-color:#177e89
+  }
+  
+  .th {
+    padding: 15px;
+    padding-left: 15px;
+    text-align: left;
+    color: white;
+    min-width: 12vh;
+    border-bottom: 1px solid #DCDEDE;
+    /* font-weight: 600; */
+    /* font-size: 14px; */
+    background-color: #177e89;
+  }
+  
+  .td {
+    padding: 8px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom: 1px solid #DCDEDE;
+    background-color: white;
+    /* font-weight: 400; */
+    /* font-size: 14px; */
+  }
+  
+  .totalRow {
+    padding: 8px;
+    padding-left: 15px;
+    text-align: left;
+    border-bottom: 1px solid #DCDEDE;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #EEF6FC;
+  }
+  
+  .headRow .th:first-child {
+    border-top-left-radius: 9px;
+  }
+  
+  .headRow .th:last-child {
+    border-top-right-radius: 9px;
+  }
+  
+  .lastRow .totalRow:first-child {
+    border-bottom-left-radius: 8px;
+  }
+  
+  .lastRow .totalRow:last-child {
+    border-bottom-right-radius: 8px;
+  }
+  
+  .pending{
+    padding: 8px 8px;
+    /* border-radius: 8px; */
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
+    border: none;
+  } 
+
+  .notUploaded{
+    padding: 8px 8px;
+    /* border-radius: 8px; */
+    background-color: #FF6347;
+    color: #c42205;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+
+  .approve{
+    padding: 8px 8px;
+    /* border-radius: 8px; */
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+    border: none;
+  }
+  
+
+  .drawDetailsDiv {
+    background-color: #0a5a73; /* Slightly lighter navy shade */
+    color: #ffffff; /* White for text */
+    padding: 2rem; /* Increased padding for more spacing */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    max-width: 600px; /* Max width for better structure */
+    margin: 0 auto; /* Center the div */
+  }
+  
+  .drawDetailsDiv p {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border between items */
+    font-size: 1.1rem; /* Slightly larger font */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .drawDetailsDiv p strong {
+    color: white; /* Golden-yellow for labels */
+    font-weight: 600; /* Slightly bold */
+  }
+  
+  .drawDetailsDiv p:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Hover effect to highlight row */
+  }
+  
+  .drawDetailsDiv p:last-child {
+    border-bottom: none; /* No border on last item */
+  }
+  
+
+  .statusDetails{
+    background-color: #0a5a73; /* Slightly lighter navy shade */
+    color: #ffffff; /* White for text */
+    padding: 2rem; /* Increased padding for more spacing */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    max-width: 600px; /* Max width for better structure */
+    margin: 0 auto; /* Center the div */
+  }
+
+  .statusDetails p {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border between items */
+    font-size: 1.1rem; /* Slightly larger font */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .statusDetails p strong {
+    color: white; /* Golden-yellow for labels */
+    font-weight: 600; /* Slightly bold */
+  }
+  
+  .statusDetails p:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Hover effect to highlight row */
+  }
+  
+  .statusDetails p:last-child {
+    border-bottom: none; /* No border on last item */
+  }
+
+  .btn{
+    background-color: #177e89;
+    border: none !important;
+    color: white !important;
+  }
+  .btn :hover{
+    background-color: #177e89 !important;
+    border: none !important;
+    color: white !important;
+  }
+
+  .btnSummary{
+    background-color: white;
+    border: none;
+    background-color: #0a5a73 !important;
+    border-radius: 8px;
+    padding: 0.2rem;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .loaderDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .deleteBtn{
+    background-color: red !important;
+    color: white !important;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }

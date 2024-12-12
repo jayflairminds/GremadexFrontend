@@ -1,0 +1,88 @@
+
+
+.labelDiv{
+    display: flex;
+    justify-content: center;
+
+}
+
+.uploadDiv{
+    /* background-color: rgb(171, 206, 232); */
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    cursor: pointer;
+}
+
+.addImg{
+    height: 15%;
+    width: 15%;
+}
+
+.message {
+    cursor: pointer;
+    font-family: 'Google Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 4rem;
+    letter-spacing: -0.03em;
+    /* background: linear-gradient(135deg, #a6e1f0, #53a5b9, #084c61); Lighter to darker transition */
+    margin-bottom: 0;
+    /* background: linear-gradient(135deg, #b3c7ff, #697df7, #051caf); */
+    color: white !important;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+  }
+
+.dragMessage{
+    color: white !important;
+  }
+
+.fileNameDiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.img{
+    height: 2%;
+    width: 2%;
+    filter: brightness(0) invert(1);
+}
+
+
+.filledBtn{
+    background-color: #177e89 !important;
+    color: white !important;
+    border: none !important;
+}
+.filledBtn:hover{
+    background-color: #177e89 !important;
+    color: white !important;
+    border: none !important;
+}
+.labelDivMain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.leabelDiv{
+    /* background-color: #177e89; */
+    /* justify-content: space-between; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    /* gap: 80px; */
+}
+
+.pTagName{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.pTag{
+    padding-top: 0.5rem;
+}

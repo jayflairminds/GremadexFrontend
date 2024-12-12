@@ -1,0 +1,20 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.filledBtn {
+    padding: 0.3rem;
+    background-color: #084c61 !important;
+    color: white !important;
+    border-radius: 6px;
+    border: 1px solid #084c61 !important;
+    cursor: pointer;
+}
+
+.footerDiv{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+
+}

@@ -1,0 +1,73 @@
+.main{
+    background-color: aqua;
+}
+
+.contentDiv{
+    background-color: #177e89;
+    padding: 0.5rem;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.checboxDiv{
+    padding-top: 10px;
+}
+.headingP{
+    color: white;
+}
+
+.spanTag{
+    color: white ;
+}
+
+.filledIn{
+    background-color: #084c61;
+    color: white;
+    border: none !important;
+}
+.filledIn:hover{
+    background-color: #177e89 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.uploadDiv{
+    background-color: rgb(171, 206, 232);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    cursor: pointer;
+}
+
+.addImg{
+    height: 15%;
+    width: 15%;
+}
+.pTag{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-top: 1rem;
+    font-weight: 300;
+}
+.pTagOne{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    /* padding-top: 1rem; */
+    font-weight: 300;
+}
+.radioDiv{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.herfTag{
+    color: #177e89;
+    padding-bottom: 1.5rem
+}

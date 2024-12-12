@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.labelTag{
+    color: black !important;
+    margin-bottom: 0;
+}
+
+.inputTag{
+    color: black !important;
+}
+
+.checkboxDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.filledBtnAdd {
+    padding: 0.3rem;
+    background-color: #177e89 !important;
+    color: white !important;
+    border-radius: 6px;
+    border: 1px solid #177e89 !important;
+    cursor: pointer;
+}

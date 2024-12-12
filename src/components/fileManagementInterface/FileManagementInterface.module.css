@@ -1,0 +1,33 @@
+  
+ .main{
+    padding: 1rem;
+ }
+ 
+ .visibleMain{
+    padding: 1rem 2rem;
+ }
+ .visibleMain .visible {
+    height: 250px;
+    /* border: 1px dashed rgba(59, 125, 221, 0.2); */
+    border-radius: 6px;
+    /* background-color: rgba(59, 125, 221, 0.02); */
+    border: 5px #177e89 ;
+    /* background-color: #8cd5dd; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+
+  .supportHeading{
+    font-weight: 400;
+    color:rgb(109, 110, 111) ;
+  }
+
+.btn{
+   background-color: #177e89 !important;
+   border: none !important;
+   color: white !important;
+}

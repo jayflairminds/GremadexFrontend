@@ -1,0 +1,75 @@
+.main {
+    /* width: 100%; */
+    height: 100%;
+    overflow: auto;
+    background-color: #084c61;
+    padding-bottom: 1rem;
+   /* margin-top: 0.5rem; */
+}
+
+.cardsDiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
+     /* background-color:  rgb(216, 215, 215); */
+     padding: 1rem;
+
+}
+
+.card {
+    background-color:#084c61;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 18rem;
+}
+
+.cardHeat{
+    background-color: #084c61;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* width:300%; */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.selectDiv{
+    display: flex;
+    justify-content: end;
+    padding: 0.2rem;
+    align-items: center;
+    gap: 10px;
+    margin: 0.5rem;
+}
+
+.messageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.button{
+    border: none;
+    background-color: #3a4850;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+    border: none;
+    background-color: #3a4850 !important;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
