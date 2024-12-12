@@ -34,3 +34,4 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ZEALOUS_SMOKE_06731D000 }}
           app_location: "/" # App source code path
           output_location: "dist" # Output directory for Vite build
+          action: "upload" # Ensure the action is explicitly provided
