@@ -19,10 +19,10 @@ const ApiURL = "https://restatx.azurewebsites.net/api"
 // const ApiURL = "https://td3zdc62-8000.inc1.devtunnels.ms/api"
 // 
 export const loginPost =(email,password)=>{
-    const res =  axios.post(`${ApiURL}/login/`,{
-        username:email,
-        password:password
-    },{withCredentials:true})
+    const apiPayload = new FormData();
+    apiPayload.append('username', email);
+    apiPayload.append('password', password);    
+    const res =  axios.post(`${ApiURL}/login/`,apiPayload,{withCredentials:true})
     return res
 } 
   
