@@ -12,6 +12,7 @@ import axios from 'axios';
 
 //Deploy 
 
+
 //  const ApiURL = "https://glasdex.com/api"
 const ApiURL = "https://restatx.azurewebsites.net/api"
 //Pratik
