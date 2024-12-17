@@ -138,8 +138,6 @@ export const EditProjectModal = ({ editProjectData, setIsEditModal, isEditModal 
             >
               <Select.Option value="residential">Residential</Select.Option>
               <Select.Option value="commercial">Commercial</Select.Option>
-              <Select.Option value="industrial">Industrial</Select.Option>
-              <Select.Option value="hospitality">Hospitality</Select.Option>
             </Select>
           </div>
         </form>

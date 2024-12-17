@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import stylesNav from "./Navbar.module.css";
-import logo from "../../assets/loginPage/grameLogoNew-removebg-preview.png";
+import logo from "../../assets/loginPage/RestatxLogo.svg";
 import { Avatar, Badge, Button, Modal, Popover } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import NotificationIcon from "../../assets/navbar/Window_Collapse.svg";
@@ -141,7 +141,7 @@ const handlNavigate = () => {
   return (
     <div className={stylesNav.main}>
       <div style={{ display: "flex", alignItems: "center" }}>
-        <img className={stylesNav.img} style={{ height: "10%", width: "10%" }} src={logo} alt="Logo" />
+        <img className={stylesNav.img} style={{ height: "8%", width: "8%" }} src={logo} alt="Logo" />
         <h3 style={{ color: "white", paddingLeft: "0.7rem" }}>RESTatX</h3>
       </div>
       <div style={{ color: "white", marginRight: "2rem", display: "flex", alignItems: "center", gap: "10px", textAlign: "center" }}>

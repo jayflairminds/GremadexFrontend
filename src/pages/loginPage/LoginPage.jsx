@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import stylesLogin from './LoginPage.module.css';
 import { useNavigate } from 'react-router-dom';
-import logo from '../../assets/loginPage/grameLogoNew.svg';
+import logo from '../../assets/loginPage/RestatxLogo.svg';
 import { Button, Input, message, Modal } from 'antd';
 import { EyeOutlined, EyeInvisibleOutlined } from '@ant-design/icons'; // Import Ant Design icons
 import { loginPost, passWordReset } from '../../services/api';
@@ -59,6 +59,7 @@ export const LoginPage = ({ isAuthenticated, setIsAuthenticated ,setTime,setMetr
                 }
                 else{
                     navigate("/plan-selection")
+                    
                 }
                 message.success('You have logged in');
             } else {

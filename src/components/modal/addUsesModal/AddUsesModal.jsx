@@ -78,8 +78,6 @@ export const AddUsesModal = ({isAddUses,setIsAddUses,listOfUses}) => {
                 <Select.Option value="">Select Project Type</Select.Option>
                 <Select.Option value="residential">Residential</Select.Option>
                 <Select.Option value="commercial">Commercial</Select.Option>
-                <Select.Option value="industrial">Industrial</Select.Option>
-                <Select.Option value="hospitality">Hospitality</Select.Option>
             </Select>
         </div>
 
